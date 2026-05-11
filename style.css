@@ -780,16 +780,12 @@ transform:rotate(35deg);
 
 border-radius:35px;
 
-clip-path: polygon(
-0% 8%,
-8% 0%,
-92% 0%,
-100% 8%,
-100% 92%,
-92% 100%,
-8% 100%,
-0% 92%
-);
+border-radius:35px;
+
+border-top-left-radius:45px;
+border-top-right-radius:45px;
+border-bottom-left-radius:25px;
+border-bottom-right-radius:25px;
 
 }
 *{
