@@ -249,3 +249,27 @@ margin-bottom:15px;
 .feature span{
 color:#777;
 }
+.windows-btn{
+padding:25px 60px;
+border-radius:25px;
+border:1px solid #333;
+background:#111;
+color:white;
+font-size:24px;
+cursor:pointer;
+transition:0.3s;
+}
+
+.windows-btn:hover{
+background:#1a1a1a;
+box-shadow:0 0 20px magenta;
+}
+
+.platforms{
+margin-top:50px;
+display:flex;
+justify-content:center;
+gap:40px;
+font-size:24px;
+color:#aaa;
+}
