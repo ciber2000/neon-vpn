@@ -792,3 +792,12 @@ clip-path: polygon(
 );
 
 }
+*{
+max-width:100%;
+box-sizing:border-box;
+}
+
+html, body{
+overflow-x:hidden;
+background:#050816;
+}
