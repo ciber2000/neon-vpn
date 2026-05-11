@@ -839,3 +839,38 @@ margin-top:30px;
 font-size:14px;
 opacity:0.5;
 }
+body{
+margin:0;
+padding:0;
+font-family:Arial;
+color:white;
+overflow-x:hidden;
+
+background:linear-gradient(
+-45deg,
+#050816,
+#0a1020,
+#111827,
+#3b0764
+);
+
+background-size:400% 400%;
+
+animation:bg-animation 15s ease infinite;
+}
+
+@keyframes bg-animation{
+
+0%{
+background-position:0% 50%;
+}
+
+50%{
+background-position:100% 50%;
+}
+
+100%{
+background-position:0% 50%;
+}
+
+}
