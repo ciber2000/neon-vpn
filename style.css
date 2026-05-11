@@ -776,3 +776,19 @@ font-size:13px;
 font-weight:bold;
 transform:rotate(35deg);
 }
+.price-card{
+
+border-radius:35px;
+
+clip-path: polygon(
+0% 8%,
+8% 0%,
+92% 0%,
+100% 8%,
+100% 92%,
+92% 100%,
+8% 100%,
+0% 92%
+);
+
+}
