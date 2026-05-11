@@ -47,7 +47,7 @@ background:linear-gradient(to right, cyan, magenta);
 .download-btn{
 padding:15px 30px;
 border:none;
-border-radius:15px;
+border-radius:35px;
 background:cyan;
 color:black;
 font-weight:bold;
