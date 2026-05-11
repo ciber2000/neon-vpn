@@ -214,62 +214,56 @@ magenta);
 color:white;
 cursor:pointer;
 box-shadow:0 0 40px cyan;
-margin-right:20px;
+
+transition:
+0.4s,
+transform 0.3s,
+box-shadow 0.3s;
+
+position:relative;
+overflow:hidden;
 }
 
-.android-btn{
-padding:25px 60px;
-border-radius:25px;
-border:1px solid #333;
-background:#111;
-color:white;
-font-size:24px;
-cursor:pointer;
+.apk-btn:hover{
+
+transform:translateY(-5px) scale(1.05);
+
+box-shadow:
+0 0 20px cyan,
+0 0 40px cyan,
+0 0 80px magenta;
+
 }
 
-.features{
-display:flex;
-justify-content:space-between;
-margin-top:60px;
-gap:20px;
+.apk-btn::before{
+
+content:'';
+
+position:absolute;
+
+top:-100%;
+left:-100%;
+
+width:300%;
+height:300%;
+
+background:
+linear-gradient(
+45deg,
+transparent,
+rgba(255,255,255,0.3),
+transparent
+);
+
+transform:rotate(25deg);
+
+transition:0.8s;
+
 }
 
-.feature{
-flex:1;
-background:#111;
-padding:30px;
-border-radius:30px;
-}
+.apk-btn:hover::before{
 
-.feature h4{
-font-size:35px;
-margin-bottom:15px;
-}
+top:-50%;
+left:-50%;
 
-.feature span{
-color:#777;
-}
-.windows-btn{
-padding:25px 60px;
-border-radius:25px;
-border:1px solid #333;
-background:#111;
-color:white;
-font-size:24px;
-cursor:pointer;
-transition:0.3s;
-}
-
-.windows-btn:hover{
-background:#1a1a1a;
-box-shadow:0 0 20px magenta;
-}
-
-.platforms{
-margin-top:50px;
-display:flex;
-justify-content:center;
-gap:40px;
-font-size:24px;
-color:#aaa;
 }
