@@ -35,6 +35,8 @@ padding:30px 50px;
 }
 
 header h1{
+  position:relative;
+top:-40px;
   margin-top:-10px;
 font-size:40px;
 background:linear-gradient(to right, cyan, magenta);
