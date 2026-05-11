@@ -674,3 +674,105 @@ filter:hue-rotate(25deg);
 }
 
 }
+.pricing{
+padding:120px 10%;
+background:#050816;
+text-align:center;
+color:white;
+}
+
+.pricing-title{
+font-size:55px;
+margin-bottom:70px;
+color:#00F0FF;
+text-shadow:0 0 20px #00F0FF;
+}
+
+.pricing-container{
+display:flex;
+justify-content:center;
+gap:35px;
+flex-wrap:wrap;
+}
+
+.price-card{
+position:relative;
+width:320px;
+padding:45px;
+border-radius:25px;
+background:rgba(255,255,255,0.05);
+backdrop-filter:blur(15px);
+border:1px solid rgba(255,255,255,0.1);
+transition:0.4s;
+overflow:hidden;
+box-shadow:0 0 30px rgba(0,240,255,0.15);
+}
+
+.price-card:hover{
+transform:translateY(-12px);
+box-shadow:0 0 50px rgba(0,240,255,0.5);
+}
+
+.price-card h2{
+font-size:36px;
+margin-bottom:20px;
+}
+
+.price{
+font-size:60px;
+font-weight:bold;
+color:#00F0FF;
+margin-bottom:25px;
+}
+
+.price span{
+font-size:20px;
+opacity:0.7;
+}
+
+.price-card ul{
+list-style:none;
+padding:0;
+margin-bottom:30px;
+}
+
+.price-card ul li{
+margin:14px 0;
+font-size:18px;
+opacity:0.85;
+}
+
+.price-card button{
+width:100%;
+padding:16px;
+border:none;
+border-radius:15px;
+background:#00F0FF;
+color:black;
+font-size:18px;
+font-weight:bold;
+cursor:pointer;
+transition:0.3s;
+}
+
+.price-card button:hover{
+transform:scale(1.05);
+background:white;
+}
+
+.popular{
+border:2px solid #00F0FF;
+transform:scale(1.05);
+}
+
+.badge{
+position:absolute;
+top:18px;
+right:-35px;
+background:#00F0FF;
+color:black;
+padding:8px 40px;
+font-size:13px;
+font-weight:bold;
+transform:rotate(35deg);
+}
