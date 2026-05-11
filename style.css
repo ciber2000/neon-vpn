@@ -619,3 +619,55 @@ translateX(30px);
 }
 
 }
+.logo-wrap{
+
+display:flex;
+justify-content:center;
+
+margin-top:30px;
+margin-bottom:20px;
+
+}
+
+.logo{
+
+width:220px;
+height:220px;
+
+object-fit:cover;
+
+border-radius:50%;
+
+box-shadow:
+0 0 20px cyan,
+0 0 40px magenta,
+0 0 80px cyan;
+
+animation:logoGlow 4s infinite alternate;
+
+transition:0.4s;
+}
+
+.logo:hover{
+
+transform:scale(1.08)
+rotate(3deg);
+
+box-shadow:
+0 0 40px cyan,
+0 0 80px magenta,
+0 0 120px cyan;
+
+}
+
+@keyframes logoGlow{
+
+0%{
+filter:hue-rotate(0deg);
+}
+
+100%{
+filter:hue-rotate(25deg);
+}
+
+}
