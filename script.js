@@ -38,3 +38,16 @@ info.style.display = "block";
 }
 
 }
+const { ipcRenderer } = require('electron')
+
+function connectVPN(){
+
+ipcRenderer.send('connect-vpn')
+
+}
+
+function disconnectVPN(){
+
+ipcRenderer.send('disconnect-vpn')
+
+}
