@@ -1454,3 +1454,59 @@ opacity:0;
 }
 
 }
+/* FORCE CENTER LOGO */
+
+.logo-wrap{
+
+position:fixed !important;
+
+top:25px !important;
+left:50% !important;
+
+transform:translateX(-50%) !important;
+
+display:flex !important;
+align-items:center !important;
+justify-content:center !important;
+
+gap:20px !important;
+
+z-index:99999 !important;
+}
+
+/* logo image */
+
+.logo-wrap img{
+
+width:120px !important;
+height:120px !important;
+
+border-radius:50% !important;
+
+box-shadow:
+0 0 40px rgba(0,240,255,0.5),
+0 0 80px rgba(139,92,246,0.4);
+
+}
+
+/* neon text */
+
+.logo-wrap *{
+
+font-size:64px !important;
+font-weight:900 !important;
+
+background:linear-gradient(
+90deg,
+#00F0FF,
+#8B5CF6,
+#FF00FF
+);
+
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+
+text-shadow:
+0 0 30px rgba(0,240,255,0.4);
+
+}
