@@ -1034,3 +1034,16 @@ transform:rotate(360deg);
 }
 
 }
+.bg{
+z-index:-999 !important;
+opacity:1 !important;
+display:block !important;
+}
+
+.cyber-grid{
+opacity:0.15 !important;
+}
+
+body{
+background:#050816 !important;
+}
