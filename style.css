@@ -267,3 +267,132 @@ top:-50%;
 left:-50%;
 
 }
+.apk-btn{
+padding:25px 60px;
+border:none;
+border-radius:25px;
+font-size:24px;
+font-weight:bold;
+background:linear-gradient(to right,
+cyan,
+magenta);
+
+color:white;
+cursor:pointer;
+box-shadow:0 0 40px cyan;
+
+transition:
+0.4s,
+transform 0.3s,
+box-shadow 0.3s;
+
+position:relative;
+overflow:hidden;
+}
+
+.apk-btn:hover{
+
+transform:translateY(-5px) scale(1.05);
+
+box-shadow:
+0 0 20px cyan,
+0 0 40px cyan,
+0 0 80px magenta;
+
+}
+
+.apk-btn::before{
+
+content:'';
+
+position:absolute;
+
+top:-100%;
+left:-100%;
+
+width:300%;
+height:300%;
+
+background:
+linear-gradient(
+45deg,
+transparent,
+rgba(255,255,255,0.3),
+transparent
+);
+
+transform:rotate(25deg);
+
+transition:0.8s;
+
+}
+
+.apk-btn:hover::before{
+
+top:-50%;
+left:-50%;
+
+}
+
+.windows-btn{
+padding:25px 60px;
+border-radius:25px;
+border:1px solid #333;
+background:#111;
+color:white;
+font-size:24px;
+cursor:pointer;
+
+transition:
+0.4s,
+transform 0.3s,
+box-shadow 0.3s;
+
+position:relative;
+overflow:hidden;
+}
+
+.windows-btn:hover{
+
+transform:translateY(-5px) scale(1.05);
+
+background:#1a1a1a;
+
+box-shadow:
+0 0 20px magenta,
+0 0 40px magenta;
+
+}
+
+.windows-btn::before{
+
+content:'';
+
+position:absolute;
+
+top:-100%;
+left:-100%;
+
+width:300%;
+height:300%;
+
+background:
+linear-gradient(
+45deg,
+transparent,
+rgba(255,255,255,0.2),
+transparent
+);
+
+transform:rotate(25deg);
+
+transition:0.8s;
+
+}
+
+.windows-btn:hover::before{
+
+top:-50%;
+left:-50%;
+
+}
