@@ -1,0 +1,25 @@
+{
+  "name": "neonvpn",
+  "version": "1.0.0",
+  "main": "main.js",
+
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+
+  "devDependencies": {
+    "electron": "^42.0.1",
+    "electron-builder": "^26.0.12"
+  },
+
+  "build": {
+    "appId": "com.neonvpn.app",
+
+    "productName": "NeonVPN",
+
+    "win": {
+      "target": "nsis"
+    }
+  }
+}
