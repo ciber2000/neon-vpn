@@ -1730,3 +1730,113 @@ display:none !important;
     box-shadow: 0 0 25px cyan;
 
 }
+.world-map {
+
+    width: 90%;
+    margin: 100px auto;
+
+    text-align: center;
+
+}
+
+.world-map h2 {
+
+    color: cyan;
+
+    font-size: 42px;
+
+    margin-bottom: 40px;
+
+}
+
+.map-container {
+
+    position: relative;
+
+    width: 100%;
+
+    max-width: 1000px;
+
+    margin: auto;
+
+}
+
+.map-image {
+
+    width: 100%;
+
+    opacity: 0.25;
+
+    filter: drop-shadow(0 0 25px cyan);
+
+}
+
+.ping {
+
+    position: absolute;
+
+    width: 18px;
+    height: 18px;
+
+    background: cyan;
+
+    border-radius: 50%;
+
+    box-shadow: 0 0 20px cyan;
+
+    animation: pulse 2s infinite;
+
+}
+
+@keyframes pulse {
+
+    0% {
+
+        transform: scale(1);
+        opacity: 1;
+
+    }
+
+    100% {
+
+        transform: scale(2.5);
+        opacity: 0;
+
+    }
+
+}
+
+.usa {
+
+    top: 38%;
+    left: 23%;
+
+}
+
+.germany {
+
+    top: 30%;
+    left: 50%;
+
+}
+
+.uk {
+
+    top: 28%;
+    left: 45%;
+
+}
+
+.japan {
+
+    top: 35%;
+    left: 82%;
+
+}
+
+.singapore {
+
+    top: 55%;
+    left: 73%;
+
+}
