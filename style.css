@@ -1682,3 +1682,43 @@ display:none !important;
 }
 
 }
+.server-status {
+
+    width: 80%;
+    margin: 60px auto;
+    text-align: center;
+
+}
+
+.server-status h2 {
+
+    color: cyan;
+    font-size: 32px;
+    margin-bottom: 30px;
+
+}
+
+.server-box {
+
+    display: flex;
+    justify-content: space-between;
+
+    background: rgba(255,255,255,0.05);
+
+    padding: 15px 25px;
+    margin: 15px 0;
+
+    border-radius: 12px;
+
+    color: white;
+
+    box-shadow: 0 0 15px rgba(0,255,255,0.2);
+
+}
+
+.online {
+
+    color: #00ff88;
+    font-weight: bold;
+
+}
