@@ -1566,3 +1566,119 @@ text-shadow:
 0 0 30px rgba(0,240,255,0.35);
 
 }
+/* MOBILE OPTIMIZATION */
+
+@media (max-width: 768px){
+
+/* hero */
+
+.hero-content{
+
+padding:40px 25px !important;
+
+border-radius:30px !important;
+
+}
+
+/* title */
+
+.hero-title{
+
+font-size:42px !important;
+
+line-height:1.1 !important;
+
+}
+
+/* subtitle */
+
+.hero-subtitle{
+
+font-size:18px !important;
+
+line-height:1.5 !important;
+
+}
+
+/* buttons */
+
+.hero-btn,
+button{
+
+width:100% !important;
+
+font-size:18px !important;
+
+padding:18px !important;
+
+}
+
+/* stats */
+
+.hero-stats{
+
+flex-direction:column !important;
+
+gap:15px !important;
+
+}
+
+/* cards */
+
+.price-card{
+
+width:100% !important;
+
+}
+
+/* logo */
+
+.center-logo{
+
+top:15px !important;
+
+gap:10px !important;
+
+}
+
+.center-logo img{
+
+width:70px !important;
+height:70px !important;
+
+}
+
+/* neon text */
+
+.center-logo *{
+
+font-size:34px !important;
+
+}
+
+/* sections */
+
+section{
+
+padding:60px 20px !important;
+
+}
+
+/* particles */
+
+.particles span{
+
+width:10px !important;
+height:10px !important;
+
+}
+
+/* cursor glow off on mobile */
+
+.cursor-glow{
+
+display:none !important;
+
+}
+
+}
